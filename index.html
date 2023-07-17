@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- My CSS -->
@@ -67,15 +70,12 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-6 text-center">
-          <div class="col-sm mb-3">
+        <div class="row justify-content-center fs-10 text-center">
+          <div class="col-sm mb-3" data-aos="fade-up-right" data-aos-offset="200" data-aos-duration="1500">
             <p>
-              Look at the stars look at the shine fow you, Ok Assalamualaikum temen" semua ko kalian kepo bgt sii sumpah lo so asiik stalking" my website gilaa keren kan wibsite gua walaupun sederhana wan page you can scroll broo gokill
-              abis temen" semua ko lo baca si kan ini text gabu gua doang dongok wkwkwkwkwkwkwk
+              Hallo, im student in Universitas Bina Sarana Informatika or UBSI saya sedang belajar di fakultas Teknik Informatika di prodi teknik informatika saya adalah seorang front-end developer yang gemar membangun design dengan menarik
+              sehingga nyaman untuk pengguna menggunakan website atau aplikasi yang di kunjungi oleh user
             </p>
-          </div>
-          <div class="col-sm mb-3">
-            <p>lo ga bakal tau guaa karena gua bukan lo yang gampang di tebak hahahaha</p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-sm-3 mb-3 ms-3">
-              <div class="card">
+              <div class="card card-1" data-aos="flip-left" data-aos-offset="250" data-aos-duration="2000">
                 <img src="projects/key.jpg" class="card-img-top" alt="Projects 1" title="Projects | KeyBoard Wireless" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -108,7 +108,7 @@
               </div>
             </div>
             <div class="col-sm-3 mb-3 ms-3">
-              <div class="card">
+              <div class="card card-2" data-aos="flip-left" data-aos-offset="250" data-aos-delay="200" data-aos-duration="2000">
                 <img src="projects/hyundai.jpg" class="card-img-top" alt="Projects 2" title="Projects | Electtric Hyundai Car" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -116,7 +116,7 @@
               </div>
             </div>
             <div class="col-sm-3 mb-3 ms-3">
-              <div class="card">
+              <div class="card card-3" data-aos="flip-left" data-aos-offset="250" data-aos-delay="250" data-aos-duration="2000">
                 <img src="projects/Chip.jpg" class="card-img-top" alt="Projects 3" title="Projects | Proccesor Wireless" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -124,7 +124,7 @@
               </div>
             </div>
             <div class="col-sm-3 mb-3 ms-3">
-              <div class="card">
+              <div class="card card-4" data-aos="flip-left" data-aos-offset="250" data-aos-delay="300" data-aos-duration="2000">
                 <img src="projects/Robot.jpg" class="card-img-top" alt="Projects 4" title="Projects | Robotic" />
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -150,7 +150,7 @@
     <section id="Contact">
       <div class="comtainer mb-3">
         <div class="row text-center">
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <h2>Contact Me</h2>
           </div>
         </div>
@@ -192,6 +192,14 @@
     </footer>
     <!-- Akhir footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Aos jS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycby21QkvJcC1IH-mZ9QQaitfwZzt5llv1B1IxjUyo0BHNjgiQSMF7FJWSq1EHxcyw5ppzQ/exec';
