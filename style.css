@@ -1,32 +1,32 @@
-.jumbotron{
-    padding-top: 6rem;
-    background-color: #176B87;
-    font-style: normal;
-    color: antiquewhite;
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #176b87;
+  font-style: normal;
+  color: antiquewhite;
 }
 
-.jumbotron .img img{
-    border: 4px double #fff;
-    width: 200px;
-    opacity: 40%;
-    transition: 1s;
+.jumbotron .img img {
+  border: 4px double #fff;
+  width: 200px;
+  opacity: 40%;
+  transition: 1s;
 }
 
-.jumbotron .img:hover img{
-    height: 400px;
-    width: 250px;
-    opacity: 100%;
-    transform: scale();
+.jumbotron .img:hover img {
+  height: 400px;
+  width: 250px;
+  opacity: 100%;
+  transform: scale();
 }
 
-.jumbotron h1{
-    text-shadow:  -4px 4px 6px rgba(201, 228, 222, 5);
+.jumbotron h1 {
+  text-shadow: -4px 4px 6px rgba(201, 228, 222, 5);
 }
 
 #Projects {
-    background-color: #000;
+  background-color: #000;
 }
 
-section{
-    padding-top: 5rem;
+section {
+  padding-top: 5rem;
 }
