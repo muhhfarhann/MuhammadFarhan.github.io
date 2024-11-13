@@ -1,3 +1,11 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -10,6 +18,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .jumbotron {
@@ -43,6 +52,19 @@ body{
 }
 
 section {
-  width: 100vw;
+  width: 100%;
   padding-top: 6rem;
+}
+
+#skills h3 {
+  border: none;
+}
+
+#skills .container .row .card i{
+  filter: grayscale(.9);
+  transition: .3s ease-in-out;
+}
+
+#skills .container .row .card i:hover{
+  filter: grayscale(0);
 }
